@@ -49,11 +49,14 @@ body
     background-color: #232323;
 }
 
-.header
+/*****************************************************************************HEADERS*/
+
+.headerHem
 {
     background-image: url(startsidaBannerBW.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 
     display: block;
     text-align: center;
@@ -62,14 +65,63 @@ body
     height: 200px;
 }
 
-/*.header .headerBanner  /////Not using at the moment/////// 
+.headerParkering
 {
-    width: 100%;
-    display: block;
-    height: 200px;
-}*/
+    background-image: url(parkingSpaceBW.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-.rubrikText /* Stor rubrik som säger "Deluxe Parkering" */
+    display: block;
+    text-align: center;
+    width: 100%;
+    /*background-color: powderblue;*/
+    height: 200px;
+}
+
+.headerTjänst
+{
+    background-image: url(tjansterBW.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: block;
+    text-align: center;
+    width: 100%;
+    /*background-color: powderblue;*/
+    height: 200px;
+}
+
+.headerKontakt
+{
+    background-image: url(kontaktBW.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: block;
+    text-align: center;
+    width: 100%;
+    /*background-color: powderblue;*/
+    height: 200px;
+}
+
+.headerInfo
+{
+    background-image: url(codeBW.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: block;
+    text-align: center;
+    width: 100%;
+    /*background-color: powderblue;*/
+    height: 200px;
+}
+
+.rubrikText /* Stor rubrik som säger "Deluxe Parkering" i headern */
 {
     /* Font attributes */
     font-family: arial;
