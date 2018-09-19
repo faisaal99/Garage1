@@ -49,7 +49,7 @@ body
     background-color: #232323;
 }
 
-/*****************************************************************************HEADERS*/
+/***************HEADERS**************************************************************************************************************/
 
 .headerHem
 {
@@ -137,6 +137,8 @@ body
     transform: translate(-50%, -50%);
 }
 
+/*************************************************************************************************************/
+
 .menu
 {
     background-color: #800000;
@@ -180,6 +182,8 @@ body
     background-color: darkblue;
 }
 
+/*********************************************************************************************************************/
+
 .startsidaText
 {
     /*background-color: white;*/ /* Old color */
@@ -215,7 +219,7 @@ body
     font-family: 'Roboto' , 'sans-serif';
 
     position: relative;
-    margin-top: 25px;
+    margin-top: 30px;
     margin-left: 55px;
     margin-right: 55px;
 }
@@ -224,7 +228,7 @@ body
     font-family: 'Roboto', 'sans-serif';
     font-size: 20px;
     position: relative;
-    margin-top: 25px;
+    margin-top: 30px;
     margin-left: 55px;
     margin-right: 55px;
 }
@@ -251,7 +255,9 @@ body
     transition: 0.2;
 }
 
-.table
+/**********************************************************************************************************************/
+
+.bookingTable
 {
     position: absolute;
     left: 50%;
@@ -263,19 +269,54 @@ body
     font-size: 15px;
 }
 
-.table th
+.bookingTable th
 {
     font-weight: bold;
     font-size: 17px;
 }
 
-.table tr , th , td
+.bookingTable tr , th , td
 {
     text-align: center;
     border: 1px solid #ececec;
     padding: 12px;
 }
 
+/***************************************************************************************/
+
+.T_tvättKnapp
+{
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 30px;
+    position: absolute;
+    padding:0;
+    width: 40%;
+}
+
+.T_tvättKnapp td {
+    padding: 5px;
+    font-family: 'Roboto', 'sans-serif';
+    vertical-align: middle;
+    border: 1px solid #ececec;
+}
+
+.T_tvättKnapp img{
+    /*margin: 0;*/
+}
+
+#biltvätt /* Länken för att boka biltvätt */
+{
+    font-family: 'Roboto', 'sans-serif';
+    color: #ececec;
+}
+
+#bilservice {
+    font-family: 'Roboto', 'sans-serif';
+    color: #ececec;
+}
+
+/*********************************************************************************************************/
 
 .foot
 {
