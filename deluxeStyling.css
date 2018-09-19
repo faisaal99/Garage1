@@ -125,11 +125,11 @@ body
     color: beige;
     padding-top: 4px;
     padding-bottom: 4px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
 
     /* Display of the title */
-    background-color: black;
+    background-color: #800000;
     text-align: center;
     position: absolute;
     left: 50%;
@@ -162,8 +162,10 @@ body
     color: white;
 
     /* Display*/
+    background-color: #800000;
     display: block;
     padding: 10px;
+    transition: 0.1s;
 }
 
 .menu li a:hover
@@ -189,9 +191,10 @@ body
     padding-top: 40px; /* Creates space from top to rubrik */
     height: 600px;
     margin-bottom: 10px;
-
+    overflow: auto;
     /* Text color */
     color: white;
+    position: relative;
 }
 
 .startsidaTextRubrik
@@ -216,6 +219,63 @@ body
     margin-left: 55px;
     margin-right: 55px;
 }
+
+#startsida /* .startsidaTextParagraph fast bara för startsidan */{
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 20px;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.startsidaTextParagraph a
+{
+    position: absolute;
+    margin-top: 25px;
+    border: 2px solid #ececec;
+    padding: 12px;
+    background-color: #404040;
+    transition: 0.13s;
+
+    font-family: Arial;
+    font-size: 23px;
+    text-decoration: none;
+    color: #ececec;
+}
+
+.startsidaTextParagraph a:hover
+{
+    color: #404040;
+    background-color: #ececec;
+    transition: 0.2;
+}
+
+.table
+{
+    position: absolute;
+    left: 50%;
+    margin-top: 30px;
+    transform: translate(-50%);
+
+    width: 70%;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 15px;
+}
+
+.table th
+{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.table tr , th , td
+{
+    text-align: center;
+    border: 1px solid #ececec;
+    padding: 12px;
+}
+
 
 .foot
 {
