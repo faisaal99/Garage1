@@ -53,7 +53,7 @@ body
 
 .headerHem
 {
-    background-image: url(startsidaBannerBW.jpg);
+    background-image: url(startsidaBannerBW_T.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -66,7 +66,7 @@ body
 
 .headerParkering
 {
-    background-image: url(parkingSpaceBW.png);
+    background-image: url(parkingSpaceBW_T.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -79,7 +79,7 @@ body
 
 .headerTjänst
 {
-    background-image: url(tjansterBW.jpg);
+    background-image: url(tjansterBW_T.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,7 +92,7 @@ body
 
 .headerKontakt
 {
-    background-image: url(kontaktBW.jpg);
+    background-image: url(kontaktBW_T.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -105,7 +105,7 @@ body
 
 .headerInfo
 {
-    background-image: url(codeBW.jpg);
+    background-image: url(codeBW_T.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -199,6 +199,23 @@ body
     /* Text color */
     color: white;
     position: relative;
+}
+
+#startsidaTextK {
+    /*background-color: white;*/ /* Old color */
+    background-color: #404040;
+    /* border-left: 1px solid;
+    border-right: 1px solid; */
+    margin-left: 20vw; /* Margin of the whole white area */
+    margin-right: 20vw; /* Margin of the whole white area */
+    padding-top: 40px; /* Creates space from top to rubrik */
+    height: auto;
+    margin-bottom: 10px;
+    overflow: auto;
+    /* Text color */
+    color: white;
+    position: relative;
+    padding-bottom: 20px;
 }
 
 .startsidaTextRubrik
