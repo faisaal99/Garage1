@@ -201,7 +201,7 @@ body
     position: relative;
 }
 
-#startsidaTextK {
+#startsidaTextK { /* .startsidaText fast bara för Kontakt-sidan */
     /*background-color: white;*/ /* Old color */
     background-color: #404040;
     /* border-left: 1px solid;
@@ -269,7 +269,7 @@ body
 {
     color: #404040;
     background-color: #ececec;
-    transition: 0.2;
+    transition: 0.2s;
 }
 
 /**********************************************************************************************************************/
