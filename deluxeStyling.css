@@ -157,7 +157,7 @@ body
 
 .menu li a
 {
-    /* Font attributes */
+    /* Font attributes */   
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     text-decoration: none;
@@ -280,7 +280,6 @@ body
     left: 50%;
     margin-top: 30px;
     transform: translate(-50%);
-
     width: 70%;
     font-family: 'Roboto', 'sans-serif';
     font-size: 15px;
@@ -318,10 +317,6 @@ body
     border: 1px solid #ececec;
 }
 
-.T_tvättKnapp img{
-    /*margin: 0;*/
-}
-
 #biltvätt /* Länken för att boka biltvätt */
 {
     font-family: 'Roboto', 'sans-serif';
@@ -334,6 +329,19 @@ body
 }
 
 /*********************************************************************************************************/
+
+.inloggning
+{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 200px;
+    text-align: right; 
+
+    font-family: Arial;
+}
+
+/************************************************/
 
 .foot
 {
